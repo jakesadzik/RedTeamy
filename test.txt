@@ -1,0 +1,11 @@
+findstr group.xml
+
+cd 'c:\ProgramData\Microsoft\Group Policy\'
+
+dir
+
+cd users
+
+cd 'S-1-5-21-345689642-887691905-1150687544-6604'
+
+cd ..
